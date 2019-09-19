@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
-
+gem 'simplecov-lcov'
 gem 'simplecov-console'
 gem 'undercover'
 gem 'clearance'
