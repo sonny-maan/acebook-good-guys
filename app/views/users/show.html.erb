@@ -1,10 +1,15 @@
 <button><%= link_to 'See all posts', posts_path %></button>
 
+
+
+
 <l1 style="padding: 20px"> </l1>
 <button><%= link_to 'Add new post', new_post_path %></button>
 <l1 style="padding: 20px"> </l1>
 <button> <%= link_to 'Albums', albums_path %></button>
 <div class=" text-center">
+
+
     <%if current_user.id == @user.id%>
 
         <%= form_for current_user do |form| %>
