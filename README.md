@@ -8,7 +8,7 @@ Acebook is a Facebook clone team project
 
 ## Usage
 
-Simply visit [here](good-guys.herokuapp.com/) #good-guys.herokuapp.com/
+Simply visit [here](good-guys.herokuapp.com/) 
 
 ## User Stories/Features
 **Feature - Sign Up/In/Out**
